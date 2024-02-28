@@ -24,6 +24,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('mahasantri', MahasantriController::class);
-Route::apiResource('jurusan', jurusanController::class);
+Route::apiResource('jurusan', JurusanController::class);
 Route::apiResource('produk', ProdukController::class);
 Route::apiResource('jenis', JenisController::class);
